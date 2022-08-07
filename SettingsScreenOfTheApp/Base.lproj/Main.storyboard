@@ -29,25 +29,25 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Mg9-M3-M18">
-                                <rect key="frame" x="16" y="248.5" width="78.5" height="151.5"/>
+                                <rect key="frame" x="16" y="248.5" width="70.5" height="151.5"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="r4y-Hx-DDN">
-                                        <rect key="frame" x="0.0" y="0.0" width="26.5" height="151.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="18.5" height="151.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NAh-fs-V78">
-                                                <rect key="frame" x="0.0" y="0.0" width="26.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="18.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="59r-qu-Wlf">
-                                                <rect key="frame" x="0.0" y="65.5" width="26.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="65.5" width="18.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hAJ-HZ-APs">
-                                                <rect key="frame" x="0.0" y="131" width="26.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="131" width="18.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -55,7 +55,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="Q0O-WU-OpE">
-                                        <rect key="frame" x="36.5" y="0.0" width="42" height="151.5"/>
+                                        <rect key="frame" x="28.5" y="0.0" width="42" height="151.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEA-ZP-Vgd">
                                                 <rect key="frame" x="0.0" y="0.0" width="42" height="20.5"/>
@@ -89,22 +89,22 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="zkS-Rg-f9j">
-                                <rect key="frame" x="110.5" y="248.5" width="287.5" height="160"/>
+                                <rect key="frame" x="102.5" y="248.5" width="295.5" height="160"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="7cZ-Vh-lcb">
-                                        <rect key="frame" x="-2" y="0.0" width="291.5" height="31"/>
+                                        <rect key="frame" x="-2" y="0.0" width="299.5" height="31"/>
                                         <connections>
                                             <action selector="sliderForRedLabelAction" destination="BYZ-38-t0r" eventType="valueChanged" id="VmA-n0-n34"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="tfS-D8-6B2">
-                                        <rect key="frame" x="-2" y="65" width="291.5" height="31"/>
+                                        <rect key="frame" x="-2" y="65" width="299.5" height="31"/>
                                         <connections>
                                             <action selector="sliderForGreenLabelAction" destination="BYZ-38-t0r" eventType="valueChanged" id="ZIr-Ni-PI2"/>
                                         </connections>
                                     </slider>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="9pE-pn-Jsq">
-                                        <rect key="frame" x="-2" y="130" width="291.5" height="31"/>
+                                        <rect key="frame" x="-2" y="130" width="299.5" height="31"/>
                                         <connections>
                                             <action selector="sliderForBlueLabelAction" destination="BYZ-38-t0r" eventType="valueChanged" id="483-fa-obf"/>
                                         </connections>
