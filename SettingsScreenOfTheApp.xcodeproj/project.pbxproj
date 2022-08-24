@@ -60,6 +60,7 @@
 			children = (
 				FAB5560C28B62A9B00A2FC04 /* ViewControllers */,
 				FAB5560D28B6C5AD00A2FC04 /* Storyboards */,
+				FAB5560E28B6C62500A2FC04 /* SupportFiles */,
 				FA64EAB3289D90D3000B3D32 /* Info.plist */,
 				FA64EAAE289D90D3000B3D32 /* Assets.xcassets */,
 			);
@@ -80,7 +81,6 @@
 			children = (
 				FA64EAB0289D90D3000B3D32 /* LaunchScreen.storyboard */,
 				FA64EAAB289D90D2000B3D32 /* Main.storyboard */,
-				FAB5560E28B6C62500A2FC04 /* SupportFiles */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
